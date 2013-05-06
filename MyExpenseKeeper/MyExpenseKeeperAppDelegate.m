@@ -7,13 +7,18 @@
 //
 
 #import "MyExpenseKeeperAppDelegate.h"
+#import "ExpenseViewController.h"
 
 @implementation MyExpenseKeeperAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
     // Override point for customization after application launch.
+    ExpenseViewController *evc = [[ExpenseViewController alloc] init];
+    [[self window] setRootViewController:evc];
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
