@@ -10,4 +10,6 @@
 
 @interface ExpenseViewController : UIViewController
 
+@property NSString *APP_URL;
+
 @end

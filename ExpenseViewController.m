@@ -10,15 +10,21 @@
 
 @implementation ExpenseViewController
 
+@synthesize APP_URL;
+
 - (void)loadView
 {
+    
+    // URL for web application
+    APP_URL = @"https://clarenceho-my-expense-keeper.jit.su/#/";
+    
     CGRect screenFrame = [[UIScreen mainScreen] applicationFrame];
     UIWebView *wv = [[UIWebView alloc] initWithFrame:screenFrame];
     
     [wv setScalesPageToFit:YES];
     
     // Set the web view to load the content from web site
-    NSURL *url = [[NSURL alloc] initWithString:@"http://clarenceho-my-expense-keeper.jit.su/#/"];
+    NSURL *url = [[NSURL alloc] initWithString:APP_URL];
     
     // Construct a request object
     NSURLRequest *req = [NSURLRequest requestWithURL:url];
