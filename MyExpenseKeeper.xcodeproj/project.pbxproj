@@ -263,6 +263,7 @@
 				GCC_PREFIX_HEADER = "MyExpenseKeeper/MyExpenseKeeper-Prefix.pch";
 				INFOPLIST_FILE = "MyExpenseKeeper/MyExpenseKeeper-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -274,6 +275,7 @@
 				GCC_PREFIX_HEADER = "MyExpenseKeeper/MyExpenseKeeper-Prefix.pch";
 				INFOPLIST_FILE = "MyExpenseKeeper/MyExpenseKeeper-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -297,6 +299,7 @@
 				1151B20817373E5D0090B1BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
