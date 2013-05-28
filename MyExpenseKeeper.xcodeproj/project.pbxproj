@@ -17,8 +17,13 @@
 		1151B20117373E5C0090B1BE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1151B20017373E5C0090B1BE /* Default@2x.png */; };
 		1151B20317373E5D0090B1BE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1151B20217373E5C0090B1BE /* Default-568h@2x.png */; };
 		1151B20B17373ECC0090B1BE /* ExpenseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1151B20A17373ECC0090B1BE /* ExpenseViewController.m */; };
-		1151B20D173749BF0090B1BE /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 1151B20C173749BF0090B1BE /* Icon-72.png */; };
-		1151B20F173749FB0090B1BE /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 1151B20E173749FB0090B1BE /* Icon-72.png */; };
+		119A0A071754461B009C7DB2 /* icon-57.png in Resources */ = {isa = PBXBuildFile; fileRef = 119A0A031754461B009C7DB2 /* icon-57.png */; };
+		119A0A081754461B009C7DB2 /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 119A0A041754461B009C7DB2 /* icon-72.png */; };
+		119A0A091754461B009C7DB2 /* icon-114.png in Resources */ = {isa = PBXBuildFile; fileRef = 119A0A051754461B009C7DB2 /* icon-114.png */; };
+		119A0A0A1754461B009C7DB2 /* icon-144.png in Resources */ = {isa = PBXBuildFile; fileRef = 119A0A061754461B009C7DB2 /* icon-144.png */; };
+		119A0A0C17544658009C7DB2 /* icon-114.png in Resources */ = {isa = PBXBuildFile; fileRef = 119A0A0B17544658009C7DB2 /* icon-114.png */; };
+		119A0A0E1754467B009C7DB2 /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 119A0A0D1754467B009C7DB2 /* icon-72.png */; };
+		119A0A1017544683009C7DB2 /* icon-144.png in Resources */ = {isa = PBXBuildFile; fileRef = 119A0A0F17544683009C7DB2 /* icon-144.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,8 +42,13 @@
 		1151B20217373E5C0090B1BE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		1151B20917373ECC0090B1BE /* ExpenseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpenseViewController.h; sourceTree = "<group>"; };
 		1151B20A17373ECC0090B1BE /* ExpenseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpenseViewController.m; sourceTree = "<group>"; };
-		1151B20C173749BF0090B1BE /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
-		1151B20E173749FB0090B1BE /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		119A0A031754461B009C7DB2 /* icon-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-57.png"; sourceTree = "<group>"; };
+		119A0A041754461B009C7DB2 /* icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72.png"; sourceTree = "<group>"; };
+		119A0A051754461B009C7DB2 /* icon-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-114.png"; sourceTree = "<group>"; };
+		119A0A061754461B009C7DB2 /* icon-144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-144.png"; sourceTree = "<group>"; };
+		119A0A0B17544658009C7DB2 /* icon-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-114.png"; sourceTree = "<group>"; };
+		119A0A0D1754467B009C7DB2 /* icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72.png"; sourceTree = "<group>"; };
+		119A0A0F17544683009C7DB2 /* icon-144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-144.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +68,9 @@
 		1151B1E017373E5C0090B1BE = {
 			isa = PBXGroup;
 			children = (
-				1151B20C173749BF0090B1BE /* Icon-72.png */,
+				119A0A0F17544683009C7DB2 /* icon-144.png */,
+				119A0A0D1754467B009C7DB2 /* icon-72.png */,
+				119A0A0B17544658009C7DB2 /* icon-114.png */,
 				1151B20917373ECC0090B1BE /* ExpenseViewController.h */,
 				1151B20A17373ECC0090B1BE /* ExpenseViewController.m */,
 				1151B1F217373E5C0090B1BE /* MyExpenseKeeper */,
@@ -98,7 +110,10 @@
 		1151B1F317373E5C0090B1BE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				1151B20E173749FB0090B1BE /* Icon-72.png */,
+				119A0A031754461B009C7DB2 /* icon-57.png */,
+				119A0A041754461B009C7DB2 /* icon-72.png */,
+				119A0A051754461B009C7DB2 /* icon-114.png */,
+				119A0A061754461B009C7DB2 /* icon-144.png */,
 				1151B1F417373E5C0090B1BE /* MyExpenseKeeper-Info.plist */,
 				1151B1F517373E5C0090B1BE /* InfoPlist.strings */,
 				1151B1F817373E5C0090B1BE /* main.m */,
@@ -166,8 +181,13 @@
 				1151B1FF17373E5C0090B1BE /* Default.png in Resources */,
 				1151B20117373E5C0090B1BE /* Default@2x.png in Resources */,
 				1151B20317373E5D0090B1BE /* Default-568h@2x.png in Resources */,
-				1151B20D173749BF0090B1BE /* Icon-72.png in Resources */,
-				1151B20F173749FB0090B1BE /* Icon-72.png in Resources */,
+				119A0A071754461B009C7DB2 /* icon-57.png in Resources */,
+				119A0A081754461B009C7DB2 /* icon-72.png in Resources */,
+				119A0A091754461B009C7DB2 /* icon-114.png in Resources */,
+				119A0A0A1754461B009C7DB2 /* icon-144.png in Resources */,
+				119A0A0C17544658009C7DB2 /* icon-114.png in Resources */,
+				119A0A0E1754467B009C7DB2 /* icon-72.png in Resources */,
+				119A0A1017544683009C7DB2 /* icon-144.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
