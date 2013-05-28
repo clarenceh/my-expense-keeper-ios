@@ -20,7 +20,7 @@
 		119A0A0C17544658009C7DB2 /* icon-114.png in Resources */ = {isa = PBXBuildFile; fileRef = 119A0A0B17544658009C7DB2 /* icon-114.png */; };
 		119A0A0E1754467B009C7DB2 /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 119A0A0D1754467B009C7DB2 /* icon-72.png */; };
 		119A0A1017544683009C7DB2 /* icon-144.png in Resources */ = {isa = PBXBuildFile; fileRef = 119A0A0F17544683009C7DB2 /* icon-144.png */; };
-		119A0A1217544AA7009C7DB2 /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 119A0A1117544AA7009C7DB2 /* icon-72.png */; };
+		119A0A1417545127009C7DB2 /* icon-57.png in Resources */ = {isa = PBXBuildFile; fileRef = 119A0A1317545127009C7DB2 /* icon-57.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,7 +42,7 @@
 		119A0A0B17544658009C7DB2 /* icon-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-114.png"; sourceTree = "<group>"; };
 		119A0A0D1754467B009C7DB2 /* icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72.png"; sourceTree = "<group>"; };
 		119A0A0F17544683009C7DB2 /* icon-144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-144.png"; sourceTree = "<group>"; };
-		119A0A1117544AA7009C7DB2 /* icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72.png"; sourceTree = "<group>"; };
+		119A0A1317545127009C7DB2 /* icon-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-57.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +62,7 @@
 		1151B1E017373E5C0090B1BE = {
 			isa = PBXGroup;
 			children = (
-				119A0A1117544AA7009C7DB2 /* icon-72.png */,
+				119A0A1317545127009C7DB2 /* icon-57.png */,
 				119A0A0F17544683009C7DB2 /* icon-144.png */,
 				119A0A0D1754467B009C7DB2 /* icon-72.png */,
 				119A0A0B17544658009C7DB2 /* icon-114.png */,
@@ -175,7 +175,7 @@
 				119A0A0C17544658009C7DB2 /* icon-114.png in Resources */,
 				119A0A0E1754467B009C7DB2 /* icon-72.png in Resources */,
 				119A0A1017544683009C7DB2 /* icon-144.png in Resources */,
-				119A0A1217544AA7009C7DB2 /* icon-72.png in Resources */,
+				119A0A1417545127009C7DB2 /* icon-57.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
