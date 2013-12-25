@@ -16,7 +16,7 @@
 {
     
     // URL for web application
-    APP_URL = @"https://clarenceho-my-expense-keeper.jit.su/#/";
+    APP_URL = @"https://myexpensekeeper.skywidesoft.com/#/";
     
     CGRect screenFrame = [[UIScreen mainScreen] applicationFrame];
     UIWebView *wv = [[UIWebView alloc] initWithFrame:screenFrame];
